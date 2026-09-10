@@ -28,6 +28,28 @@ header h1 {
   margin-bottom: 10px;
 }
 
+#auth-container {
+  margin: 0 auto 30px;
+  max-width: 500px;
+}
+
+#logged-in-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+#logged-in-view.hidden {
+  display: none;
+}
+
+#auth-message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
